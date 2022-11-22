@@ -32,4 +32,8 @@ I am diligent, always trying to find a common language with colleagues, I strive
 * [Russian University of Cooperation](https://smolensk.ruc.su)
 * [HTML Academy](https://www.htmlacademy.ru/)
 
+## English Language
+---
+
+* A2 I understand the speech of native speakers, but it is difficult to speak
 
