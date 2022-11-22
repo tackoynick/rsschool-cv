@@ -17,5 +17,19 @@ I am diligent, always trying to find a common language with colleagues, I strive
 * HTML
 * CSS
 * JavaScript (Basic)
+* Adobe LightRoom 
+* Adobe Photoshop
+* DaVinci Resolve
+
+## Code Example
+---
+
+## Experience
+---
+
+## Education
+---
+* [Russian University of Cooperation](https://smolensk.ruc.su)
+* [HTML Academy](https://www.htmlacademy.ru/)
 
 
