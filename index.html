@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>cv</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English Language</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <h1 class="section-title"><strong>Kravcov Yaroslav - Junior Frontend Developer</strong></h1>
+                <hr>
+                <p><img class="photo" src="/KKh0BwpeNgY.jpg" alt="photo-profile"></p>
+            </section>
+            <section class="section">
+                <h2 class="section-title"><a href="#"  id="contacts"></a>Contacts</h2>
+                <ul>
+                    <li><strong>Smolensk, Russia</strong></li>
+                    <li><strong>Phone:</strong> <a class="link" href="tel:+79203210389">+7 920 321 03 89</a></li>
+                    <li><strong>Email:</strong> <a class="link" href="mailto:jaroslav.lav@yandex.ru">jaroslav.lav@yandex.ru</a></li>
+                    <li><strong>GitHub:</strong> <a class="link" href="https://github.com/tackoynick">tackoynick</a></li>
+                </ul>
+                <hr>
+            </section>
+            <section class="section">
+                <h2 class="section-title"><a href="#" id="summary"></a>About Me</h2>
+                <p>I am diligent, always trying to find a common language with colleagues, I strive to learn new things. Worked as a sales manager and content manager. Now I work as a photographer, but I have a desire to learn a new profession.</p>
+                <hr>
+            </section>
+            <section class="section">
+                <h2 class="section-title"><a href="#" id="skills"></a>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript (Basic)</li>
+                    <li>Adobe LightRoom</li>
+                    <li>Adobe Photoshop</li>
+                    <li>DaVinci Resolve</li>
+                </ul>
+                <hr>
+            </section>
+            <section class="section">
+                <h2 class="section-title"><a href="#" id="code"></a>Code Example</h2>
+                <pre class="code-ex">       
+                    <code>
+                        <span class="code-keyword">let</span> userName = prompt(<span class="code-string">"Кто там?"</span>, <span class="code-string">''</span>);
+                    <span class="code-keyword">if</span> (userName === <span class="code-string">'Тучная'</span>) {
+                        let <span class="code-keyword">pass</span> = prompt(<span class="code-string">"Пароль"</span>, <span class="code-string">'Введите пароль'</span>);
+                        <span class="code-keyword">if</span> (<span class="code-keyword">pass</span> === <span class="code-string">'iamtheboss'</span>) {
+                        alert( <span class="code-string">'Привет, Катюха'</span>);
+                        } <span class="code-keyword">else</span> <span class="code-keyword">if</span> (<span class="code-keyword">pass</span> === <span class="code-string">''</span> || <span class="code-keyword">pass</span> === null) {
+                            alert( <span class="code-string">'Отменено!'</span> );
+                        } <span class="code-keyword">else</span> {
+                            alert( <span class="code-string">'Неверный пароль'</span> );
+                        }
+                    } <span class="code-keyword">else</span> <span class="code-keyword">if</span> (userName === <span class="code-string">''</span> || userName === null) {
+                        alert( <span class="code-string">'Отменено'</span> );
+                    } <span class="code-keyword">else</span> {
+                        alert( <span class="code-string">'Я вас не звал!'</span> );
+                    }
+                    </code>
+                </pre>
+                <hr>
+            </section>
+            <section class="section">
+                <h2 class="section-title"><a href="#" id="experience"></a>Experience</h2>
+                <hr>
+            </section>
+            <section class="section">
+                <h2 class="section-title"><a href="#" id="education"></a>Education</h2>
+                <ul>
+                    <li class="nav-item"><a href="https://smolensk.ruc.su">Russian University of Cooperation</a></li>
+                    <li class="nav-item"><a href="https://www.htmlacademy.ru">HTML Academy</a></li>
+                </ul>
+                <hr>
+            </section>
+            <section class="section">
+                <h2 class="section-title"><a href="#" id="english"></a>English Language</h2>
+                <p><strong>A2 - Elementary</strong></p>
+                <p>I understand the speech of native speakers, but it is difficult to speak</p>
+                <br>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="logo"><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool-logo"></a></p>
+            <p class="link-git"><a class="link" href="https://github.com/tackoynick" target="_blank">tackoynick</a><span class="date">2022</span></p>
+        </div>
+    </footer> 
+
+</body>
+</html>
